@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>고양이</title>
-    <style>
+    <style type = "text/css">
         header {
             height:100px;
-            text-align:center;
+            margin-left:580px;
+            margin-top:5%;
+            margin-bottom:0px;
         }
         section {
             height:700px;
@@ -17,12 +19,31 @@
         footer {
             height:100px;
             text-align:center;
+            font-size:10px;
+        }
+        tstyle {
+            color:blue;
+            font-size:40px;
+        }
+        .div1 {
+            background-color:chartreuse;
+            height:50px;
+            width:50px;
+            padding-bottom: 500px;
+            text-align:right;
+        }
+        .div2{
+            background-color: brown;
+            height:50px;
+            width:50px;
         }
     </style>
 </head>
-<body>
+<body bgcolor="#d3d3d3">
     <header>
-        <img src = "../cat.jpg" height = "100">
+        <div id = "header"> 
+            <tstyle>고양이</tstyle>
+        </div>
     </header>
     <section>
         <table border = "1" 
@@ -31,17 +52,31 @@
                height="700" 
                style="border-collapse:collapse">
             <tr>
-                <th height="30">게시판</th>
-                <th>게시판</th>
-                <th>게시판</th>
-                <th>게시판</th>
-                <th>게시판</th>
+                <th height="30">1</th>
+                <th>2</th> 
+                <th>3</th>  
+                <th>4</th>      
+                <th>5</th>        
             </tr>
             <tr>
-                <td colspan = "5"></td>
+                <td colspan = "5">
+                    <div class="div2">
+                    sdsds
+                    </div1>
+                    <div>
+                    sds
+                    </div1>
+                </td>
             </tr>
         </table>
     </section>
-    <footer>마지막</footer>
+    <footer>
+        주소 : 경상북도 경산시 진량읍 평사리 29-1 로즈벨리 50동 1503호 <br>
+        도로명 : 대구대로 320 로즈벨리 50동 1503호 <br>
+        H.P : 010-0000-0000 <br>
+        E-mail : qqq@naver.com
+    </footer>
+    <div class = "div1" >
+    </div>
 </body>
 </html>
