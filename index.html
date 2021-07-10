@@ -8,29 +8,26 @@
     <style>
         header {
             background-color: aqua;
-            width:100%;
             height:100px;
         }
         nav {
-            background-color: black;
-            width:100%;
-            height:100px;
+            background-color: pink;
+            width:200px;
+            height:300px;
         }
-        aside {
-            background-color: blue;
-            width:30%;
-            height:100px;
-        }
-        main {
+        section {
             background-color: blueviolet;
-            width:70%;
+            width:200px;
             height:100px;
+            padding:10px;
         }
         footer {
             background-color: brown;
-            width:100%;
             height:100px;
         }
+        header, nav, section, footer { text-align:center; }
+        header, footer { line-height:100px; }
+        nav, section { line-height:240; }
     </style>
 </head>
 <body>
@@ -40,12 +37,9 @@
     <nav>
         네이브
     </nav>
-    <aside>
-        옆
-    </aside>
-    <main>
-        메인
-    </main>
+    <section>
+        섹션
+    </section>
     <footer>
         주소 : 경상북도 경산시 진량읍 평사리 29-1 로즈벨리 50동 1503호 <br>
         도로명 : 대구대로 320 로즈벨리 50동 1503호 <br>
