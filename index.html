@@ -35,15 +35,6 @@
             width:200px;
             text-align: left;
         }
-        .box1 {
-            width:100px;
-            margin-left: 900px;
-            margin-top: 0px;
-        }
-        .submit {
-            margin-left: 1000px;
-            margin-top: 0px;
-        }
     </style>
 </head>
 <body>
@@ -51,9 +42,6 @@
         <div class = "div1">
             <h1>뚱냥's</h1>
         </div>
-        <input class="box1" type="box">
-        <input class="box1" type="box">
-        <input class="submit" type="submit" value="로그인">
     </header>
     <nav>
         <table border="0">
@@ -65,15 +53,29 @@
         </table>
     </nav>
     <section>
-        <div class="div2">
-            <ul>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-                <li>1</li>
-            </ul>
-        </div>
+        <form name="frm" method="post" action="">
+            <table  border="0"
+                    width="100" 
+                    cellpadding="2" 
+                    cellspacing="1" 
+                    bgcolor="lightgrey">
+                <tr "bgcolor="lightgrey">
+                    <th>ID</th>
+                    <td><input type="text" name="userid"></td>
+                </tr>
+                <tr bgcolor="lightgrey">
+                    <th>Passward</th>
+                    <td><input type="password" name="pass"></td>
+                </tr>
+                <tr bgcolor="lightgrey">
+                    <th colspan="2" height="10">
+                        <input type="submit" value="로그인">
+                        <input type="submit" value="회원가입">
+                        <input type="submit" value="비밀번호찾기">
+                    </th>
+                </tr>
+            </table>
+            </form>
     </section>
     <footer>
         주소 : 경상북도 경산시 진량읍 평사리 29-1 로즈벨리 50동 1503호 <br>
