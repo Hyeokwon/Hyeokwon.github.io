@@ -84,3 +84,26 @@
 .div3 > ul >li:not(:last-child){
         margin-right: 20px;
 }
+#li1{
+    position:absolute;
+    top:520px;
+    left:203px;
+    background-color: royalblue;
+}
+#li2{
+    position:absolute;
+    top:520px;
+    left:523px;
+    background-color: salmon;
+
+}
+#li3{
+    position:absolute;
+    top:520px;
+    left:843px;
+}
+#li4{
+    position:absolute;
+    top:520px;
+    left:1163px;
+}
