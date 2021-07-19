@@ -74,9 +74,9 @@
     display: flex;
 }
 .div4{
-    width:100px;
+    width:200px;
     height:100px;
-    /*background-color: silver;*/
+    margin-left: 780px;
 }
 .div3 > ul > li {
     width:300px;
