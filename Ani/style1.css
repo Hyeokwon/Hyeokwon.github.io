@@ -22,6 +22,28 @@
     display: flex;
     padding-top: 50px;
 }
+.div4{
+    width:200px;
+    height:100px;
+    margin-left: 780px;
+    background-color: gold;
+}
+.div5{
+    width:1280px;
+    height:700px;
+    margin-left: 203px;
+    /*background-color: darkslateblue;*/
+    display: flex;
+    padding-top: 50px;   
+}
+.div6{
+    width:200px;
+    height:100px;
+    margin-left: 600px;
+    /*background-color: greenyellow;*/
+    position: absolute;
+    margin-top: 800px;
+}
 .Ani{
     width:100px;
     height:30px;
@@ -73,11 +95,6 @@
 .div3 > ul{
     display: flex;
 }
-.div4{
-    width:200px;
-    height:100px;
-    margin-left: 780px;
-}
 .div3 > ul > li {
     width:300px;
     height:300px;
@@ -111,4 +128,14 @@
     position:absolute;
     top:520px;
     left:1163px;
+}
+.td{
+        height:100px;
+        width:150px;
+        background-color:fuchsia
+}
+.td1{
+    height:100px;
+    width:1230px;
+    background-color: gainsboro;
 }
