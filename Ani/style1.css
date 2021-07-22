@@ -132,10 +132,10 @@
 .td{
         height:100px;
         width:150px;
-        background-color:fuchsia
+        /*background-color:fuchsia*/
 }
 .td1{
     height:100px;
     width:1230px;
-    background-color: gainsboro;
+    /*background-color: gainsboro;*/
 }
