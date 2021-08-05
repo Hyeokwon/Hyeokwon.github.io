@@ -50,6 +50,8 @@ body {
 
 .calculator form input[type="text"] {
     grid-column: span 4;
+    text-align: right;
+    padding:0 10px;
 }
 
 .calculator form .clear {
