@@ -1,64 +1,224 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/77b934b4fd.js" crossorigin="anonymous"></script>
-    <script src="main.js" defer></script>
-    <title>StarCraft</title>
-</head>
-<body>
-    <nav class="navbar">
-        <div class="navbar_logo">
-            <i class="fas fa-globe"></i>
-            <a href="">StarCraft</a>
-        </div>
-        
-        <ul class="navbar_menu">
-            <li><a href="">Zerg</a></li>
-            <li><a href="">Terran</a></li>
-            <li><a href="">Protoss</a></li>
-            <li><a href="">Build</a></li>
-            <li><a href="">Use map</a></li>
-            <li><a href="">Free</a></li>
-        </ul>
-        
-        <ul class="navbar_icons">
-            <li><button type="box" name="login">Login</button></li>
-        </ul>
+body {
+    margin:0;
+    font-family: 'Source Sans Pro', sans-serif;
+    /*background-image:url("image/스타9.png");
+    background-repeat: no-repeat;*/
+}
 
-        <a href="#" class="navbar_toogleBtn">
-            <i class="fas fa-bars"></i>
-        </a>
-    </nav>
+a {
+    text-decoration: none;
+    color: white;
+}
 
-    <section class="section">
-        <ul class="section ul">
-            <li>Zerg</li>
-            <li>Terran</li>
-            <li>Protoss</li>
-        </ul>
-        <ul class="section ul">
-            <li>Build</li>
-            <li>Use map</li>
-            <li>Free</li>
-        </ul>
-    </section>
-    
-    <footer class="footer">
-        <a href="">About Starcraft</a> &nbsp
-        <a href="">로고히스토리</a> &nbsp
-        <a href="">개인정보처리방침</a> &nbsp
-        <a href="">도움말</a> &nbsp
-        <a href="">제휴</a> &nbsp
-        <a href="">광고</a> &nbsp
-        <a href="">문의/피드백</a> &nbsp
-        <p>khw6864@naver.com</p>
-    </footer>
-</body>
-</html>
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding : 8px 12px;
+    height: 30px;
+}
+.navbar_logo {
+    font-size: 24px;
+    color:white;
+}
+
+.navbar_logo i {
+    color:darkgray;
+}
+
+.navbar_menu {
+    display:flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navbar_menu li {
+    padding: 8px 12px;
+}
+
+.navbar_menu li:hover {
+    background-color: darkgray;
+    border-radius: 4px;
+}
+
+.navbar_icons {
+    display:flex;
+    list-style: none;
+    color:white;
+    padding-left: 0px;
+}
+
+.navbar_icons li {
+    padding: 8px 12px;
+}
+
+.navbar_toogleBtn {
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: pink;
+    display:none;
+}
+
+section {
+    background-color: darkgrey;
+    height: 1800px;
+}
+
+.div_1 {
+    height:50px;
+    width: 500px;
+    border:0px;
+    background-color: darkgrey;
+    position: absolute;
+    left: 38%;
+    top : 7%;
+}
+
+input {
+    font-size: 16px;
+    width:325px;
+    height:30px;
+    padding: 10px;
+    border: 0px;
+    outline : none;
+    float : left;
+    background-color: darkgrey;
+}
+
+.div_1 button {
+    width: 50px;
+    height: 100%;
+    border: 0px;
+    background-color: darkgrey;
+    outline: none;
+    float: right;
+    color: white;
+}
+
+.section_ul {
+    height:302px;
+    background-color: darkgrey;
+    display: flex;
+    margin:0px; padding:0px;
+    padding-top: 100px;
+}
+
+.section_ul li {
+    flex: 1;
+    height:302px;
+    background-color: gray;
+    list-style:none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 80px / 40px;
+}
+
+.section_ul li:not(:last-child){
+    margin-right: 10px;
+}
+
+.section_ul1 {
+    height:302px;
+    background-color: darkgrey;
+    display: flex;
+    margin:0px; padding:0px;
+    padding-top: 10px;
+}
+
+.section_ul1 li {
+    flex: 1;
+    height:302px;
+    background-color: gray;
+    list-style:none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 80px / 40px;
+}
+
+.section_ul1 li:not(:last-child){
+    margin-right: 10px;
+}
+
+article{
+    background-color: darkgrey;
+    height:500px;
+}
+
+.article_ul {
+    height:302px;
+    width: 100%;
+    background-color: darkgrey;
+    display: flex;
+    margin:0px; padding:0px;
+    padding-top: 10px;
+}
+
+.article_ul li {
+    flex: 1;
+    height:500px;
+    width: 20%;
+    background-color: gray;
+    list-style:none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 10px 100px 0px 100px;
+    border-radius: 80px / 40px;
+}
+
+.article_1 {
+    width:100%;
+    height: 500px;
+    background-color: slateblue;
+    margin-top: 60px;
+}
+
+.footer {
+    background-color: gray;
+    height: 100px;
+    text-align: center;
+    padding: 30px 12px 5px;
+}
+
+.footer p {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+
+    .navbar_menu {
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        display: none;
+    }
+
+    .navbar_menu li {
+        width:100%;
+        text-align:center;
+    }
+
+    .navbar_icons {
+        justify-content: center;
+        width:100%;
+        display: none;
+    }
+
+    .navbar_toogleBtn {
+        display:block;
+    }
+
+    .navbar_menu.active,
+    .navbar_icons.active {
+        display:flex;
+    }
+}
