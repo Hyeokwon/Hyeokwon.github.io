@@ -114,6 +114,7 @@ input {
     font-weight: bold;
     color: white;
     border-radius: 80px / 40px;
+    box-shadow: 4px 4px 4px 4px #666666;
 }
 
 .section_ul li:not(:last-child){
@@ -137,6 +138,7 @@ input {
     font-weight: bold;
     color: white;
     border-radius: 80px / 40px;
+    box-shadow: 4px 4px 4px 4px #666666;
 }
 
 .section_ul1 li:not(:last-child){
@@ -168,6 +170,7 @@ article{
     color: white;
     margin: 10px 100px 0px 100px;
     border-radius: 80px / 40px;
+    box-shadow: 4px 4px 4px 4px #666666;
 }
 
 .article_1 {
